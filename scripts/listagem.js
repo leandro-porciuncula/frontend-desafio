@@ -1,3 +1,5 @@
+const BACKEND_URL = window.CONFIG.BACKEND_URL;
+
 fetch(`${BACKEND_URL}/produtos`)
     .then(res => res.json())
     .then(produtos => {
